@@ -1,0 +1,23 @@
+schema: ghost-atlas.integration.gaqc3/v1
+consumer: Atlas-Ascend/DEVOS
+provider:
+  organ_id: GAQC-3.0
+  canonical_name: Ghost Atlas Quantum Computer
+  repository: Atlas-Ascend/Ghost-Atlas-Research-Institute
+  path: labs/gaqc3
+remediation_inputs:
+  - compile-failure
+  - unsupported-gate
+  - backend-mismatch
+  - invalid-calibration
+  - execution-exception
+  - failed-reproducibility-check
+remediation_outputs:
+  - patch-candidate
+  - backend-fallback-plan
+  - transpilation-repair
+  - test-reproduction
+constraints:
+  devos_cannot_fabricate_quantum_evidence: true
+  devos_cannot_promote_finish_truth: true
+  repaired_work_returns_to_seca: true
