@@ -1,0 +1,38 @@
+schema: ghost-atlas.hypernet.node/v1
+node_id: devos
+repository: Atlas-Ascend/DEVOS
+organism_root: Atlas-Ascend/VISHVARUPA-Software-Hardware-Organism
+version: 0.1.0
+lifecycle: active-candidate
+plane: build-development-promotion
+canonical_role: developer-engineering-assistant
+authority:
+  owns:
+    - code-analysis
+    - implementation-assistance
+    - debugging-assistance
+    - technical-handoff
+  does_not_own:
+    - executive-authorization
+    - final-quality-verdict
+    - security-verdict
+    - deployment-promotion
+upstream:
+  - Atlas-Ascend/Packet-OS
+  - Atlas-Ascend/workforce-spine
+  - Atlas-Ascend/Janus-Prime
+downstream:
+  - Atlas-Ascend/VULCAN-Agentic-Engineering-Foundry
+  - Atlas-Ascend/Ghost-Atlas-Software-Factory-End-to-End-SDLC-Control-Plane
+  - Atlas-Ascend/SECA
+integration:
+  io: Atlas-Ascend/Crowngrid
+  events: Atlas-Ascend/Ghost-Atlas-Estate-Event-Gateway
+  memory: Atlas-Ascend/thoth-archive-engine
+  security: Atlas-Ascend/Medusa-Sovereign-Security
+failure_route:
+  repair: Atlas-Ascend/PROMETHEUS-V-1.1.1
+proof:
+  runtime_state: unverified
+  repository_presence_is_not_runtime_proof: true
+  physical_claims_require_live_receipts: true
