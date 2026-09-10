@@ -1,0 +1,10 @@
+schema: ghost-atlas.global-sync-pointer/v1
+event_id: GLOBAL-ALIGNMENT-RESONANCE-SYNC-ODDEC-20260909T195015-0700
+canonical_manifest: Atlas-Ascend/Ghost-Atlas-Distributed-Agentic-Organism/06-TOPOLOGY/GLOBAL_ALIGNMENT_RESONANCE_SYNC_ODDEC_20260909T195015-0700.yaml
+channel: crown_coherence
+organ: DEVOS
+state: aligned
+role: verification-and-finish-truth
+oddec: full
+coherence_gate: [DEVOS, SECA, Medusa-Sovereign-Security, ProofGrid, thoth-archive-engine]
+invariants: [evidence_before_success, no_proof_class_substitution, verification_before_promotion]
